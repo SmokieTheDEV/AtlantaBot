@@ -1,9 +1,9 @@
 module.exports = {
 	/* The token of your Discord Bot */
-	token: "XXXXXXXXXXX",
+	token: "ODA2MDc2NTE5Nzg5MTAxMDY3.YBkLQg.kOP5VKiDDGOWm9AlDNzI92Pr9Xo",
 	/* For the support server */
 	support: {
-		id: "XXXXXXXXXXX", // The ID of the support server
+		id: "XXXXXXXX", // The ID of the support server
 		logs: "XXXXXXXXXXX", // And the ID of the logs channel of your server (new servers for example)
 	},
 	/* Dashboard configuration */
@@ -16,7 +16,7 @@ module.exports = {
 		expressSessionPassword: "XXXXXXXXXXX", // Express session password (it can be what you want)
 		failureURL: "https://www.atlanta-bot.fr" // url on which users will be redirected if they click the cancel button (discord authentication)
 	},
-	mongoDB: "mongodb://localhost:27017/AtlantaBot", // The URl of the mongodb database
+	mongoDB: "mongodb+srv://Smokie1330:adityaraj1330@cluster0.ss0er.mongodb.net/smakie?retryWrites=true&w=majority", // The URl of the mongodb database
 	prefix: "*", // The default prefix for the bot
 	/* For the embeds (embeded messages) */
 	embed: {
@@ -28,7 +28,7 @@ module.exports = {
 	/* Bot's owner informations */
 	owner: {
 		id: "XXXXXXXXXXX", // The ID of the bot's owner
-		name: "Androz#2091" // And the name of the bot's owner
+		name: "NotSmokie#7166" // And the name of the bot's owner
 	},
 	/* DBL votes webhook (optional) */
 	votes: {
@@ -57,7 +57,7 @@ module.exports = {
 	/* The Bot status */
 	status: [
 		{
-			name: "@Atlanta help on {serversCount} servers",
+			name: "@Smokie help on {serversCount} servers",
 			type: "LISTENING"
 		},
 		{
